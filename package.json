@@ -92,8 +92,8 @@
     "web-streams-polyfill": "^3.3.2",
     "xtend": "^4.0.2"
   },
-  "devDependencies": {},
   "scripts": {
+    "start": "npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
