@@ -2,7 +2,6 @@ const express = require("express");
 const cors = require("cors");
 const fs = require("fs");
 var path = require("path")
-require("dotenv").config();
 
 const app = express();
 app.use(cors());
