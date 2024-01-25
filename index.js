@@ -39,8 +39,6 @@ app.listen(3334, () => {
 });
 
 app.get("/audio/:audio", (req, res) => {
-    
-
   const filePath = process.cwd() + "/public/uploads/" + req.params.audio;
 
   if (fs.existsSync(filePath)) {
